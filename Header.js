@@ -8,7 +8,7 @@ import MenuItem from '@mui/material/MenuItem';
 import { NavLink } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import Table from 'react-bootstrap/esm/Table';
-import { DLT } from '../redux/action/action';
+import { DLT } from './action';
 
 const Header = () => {
 
