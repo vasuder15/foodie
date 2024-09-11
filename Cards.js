@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import Cardsdata from './CardsData'
 import "./style.css";
 import { useDispatch } from 'react-redux';
-import { ADD } from '../redux/action/action';
+import { ADD } from './action';
 
 const Cards = () => {
 
