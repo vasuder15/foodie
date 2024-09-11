@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './component/Header';
-import CardsDetails from './component/CardsDetails';
-import Cards from './component/Cards';
+import './bootstrap.min.css';
+import Header from './Header';
+import CardsDetails from './CardsDetails';
+import Cards from './Cards';
 import {Routes,Route} from "react-router-dom";
 
 function App() {
