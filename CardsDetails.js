@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Table from 'react-bootstrap/Table'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { DLT,ADD,REMOVE } from '../redux/action/action'
+import { DLT,ADD,REMOVE } from './action'
 
 
 const CardsDetails = () => {
